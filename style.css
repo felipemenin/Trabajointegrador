@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+
+}
+body{
+    color: white;
+    background-color: rgb(34, 32, 32);
+    box-sizing: border-box;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Rozha One', serif;
+    margin-top: 3px;
+    background-color: black;
+}
+h1{
+   
+    font-size: 50px;
+}
+.titulo{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;  
+    
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+    
+   
+
+}
+.fav{
+    margin-left: 20px;
+}
+
+.busca{
+    height: 40px;
+    width: 200px;
+    margin-top: 50px;
+ 
+}
+
+.logo{ 
+height: 130px;
+}
+p{
+font-size: 20px;
+}
+.mejoresvaloradas{
+    margin-top: 3px;
+    background-color: black;
+    
+}
+
+h3{
+    padding-top: 30px;
+}
+.fotoss{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin-top: 30px;
+padding-bottom: 30px;
+}
+.foto{
+    height: 300px;
+}
+.mejoresvaloradas1{
+    margin-top: 10px;
+    background-color: black;  
+}
+.imagene:hover{
+    
+        transform: translateY(-10px);
+        box-shadow: 0 0 20px rgba(215, 212, 212, 0.57);
+    }
