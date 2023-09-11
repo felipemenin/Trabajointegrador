@@ -56,8 +56,7 @@ padding: 5px;
 }
 p{
 font-size: 20px;
-padding-left: 20px;
-padding-right: 20px;
+
 }
 .mejoresvaloradas{
     margin-top: 3px;
@@ -73,6 +72,8 @@ h3{
 display: flex;
 flex-direction: row;
 justify-content: space-between;
+margin-left: 15px;
+margin-right: 15px;
 margin-top: 30px;
 padding-bottom: 30px;
 }
