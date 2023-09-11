@@ -54,6 +54,7 @@ a{
 
 .logo{ 
 height: 130px;
+padding: 5px;
 }
 p{
 font-size: 20px;
@@ -85,4 +86,40 @@ padding-bottom: 30px;
     
         transform: translateY(-10px);
         box-shadow: 0 0 20px rgba(215, 212, 212, 0.57);
-    }
+}
+footer{
+    padding-left: 10px;
+}
+.detallep{
+    background-color: black;
+    margin-top: 3px;
+    padding-left: 15px;
+    font-family: 'Lato', sans-serif;
+}
+
+.separador{
+    display: flex;
+    flex-direction: row;
+    margin-left: 15px;
+}
+.fotodet {
+    margin-left: 10px;
+    height: 480px;
+}
+.textod{
+    text-align: justify;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-bottom: 7px;
+}
+.sectra{
+    background-color: black;
+    margin-top: 6px;
+    display: flex;
+    justify-content: center;
+}
+.detallitos{
+    margin-left: 15px;
+    margin-top: 180px;
+}
