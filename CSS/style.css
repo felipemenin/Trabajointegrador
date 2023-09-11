@@ -29,7 +29,11 @@ h1{
     width: 100%;  
     
 }
-
+.favoritos{
+    height: 25px;
+    background-color: black;
+    color: white;
+}
 
 a{
     text-decoration: none;
