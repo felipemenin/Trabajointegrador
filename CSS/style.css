@@ -31,6 +31,7 @@ h1{
 }
 .favoritos{
     height: 25px;
+    margin-left: 20px;
     
 }
 
@@ -54,6 +55,7 @@ padding: 5px;
 }
 p{
 font-size: 20px;
+padding-left: 20px;
 }
 .mejoresvaloradas{
     margin-top: 3px;
@@ -63,6 +65,7 @@ font-size: 20px;
 
 h3{
     padding-top: 30px;
+    padding-left:30px;
 }
 .fotoss{
 display: flex;
@@ -77,6 +80,7 @@ padding-bottom: 30px;
 .mejoresvaloradas1{
     margin-top: 10px;
     background-color: black;  
+    padding: 10px;
 }
 .imagene:hover{
     
