@@ -168,7 +168,7 @@ h1{
 }
 .fotobusqueda{
     padding-top: 15px;
-    margin-left: 10px
+    margin-left: 10px;
 }
 .todo{
     background-color: black;
@@ -245,13 +245,11 @@ h1{
     flex-wrap: wrap;
     gap: 50px;
 }
-
-
 }
-@media(max-width:700px){
-    .titulo{
+
     
-}
+
+@media(max-width:700px){
 .separador{
     justify-content: center;
     flex-direction: column;
