@@ -80,6 +80,28 @@ padding-bottom: 30px;
 flex-wrap: wrap;
 gap: 90px;
 }
+.fotosss{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    flex-wrap: wrap;
+    gap: 90px;
+    }
+.pepe{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    flex-wrap: wrap;
+    gap: 90px;
+ }
 .foto{
     height: 300px;
 }
@@ -88,10 +110,14 @@ gap: 90px;
     background-color: black;  
     padding: 10px;
 }
+.imagene{
+    width: 200px;
+}
 .imagene:hover{
     
         transform: translateY(-10px);
         box-shadow: 0 0 20px rgba(215, 212, 212, 0.57);
+       
 }
 .fotoss_generos { 
     display: flex;
