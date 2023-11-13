@@ -1,6 +1,3 @@
-let buscador = document.querySelector('.busca')
-
-
 let container1= document.querySelector(".fotoss")
 let container2=document.querySelector(".fotosss")
 let container3= document.querySelector(".pepe")
