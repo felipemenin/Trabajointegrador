@@ -12,7 +12,8 @@ fetch(`https://api.themoviedb.org/3/genre/movie/list?api_key=${acaVaLaAPIKey}`)
         genrespelis.innerHTML+=`
         <article>
             <a href= "./detail-genres.html">
-                <p>"${data.genres[i].name}"
+                <p>"${data.genres[i].name}"</p>
+            </a>
         </article>
         `
     }

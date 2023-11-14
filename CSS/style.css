@@ -4,7 +4,7 @@
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
 }
-.genrespelis{
+.genres{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;

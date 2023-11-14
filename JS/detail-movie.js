@@ -11,13 +11,13 @@ fetch(`https://api.themoviedb.org/3/movie/${id_pelicula}?api_key=${acaVaLaAPIKey
 .then(function(data){
     console.log(data)
     todo.innerHTML = `
-    <h1 class="titulodet">${data.results[id_pelicula].title}"</h1>
+    <h1 class="titulodet">${data.title}"</h1>
     <div class="separador">
-    <img class="fotodet" src="https://image.tmdb.org/t/p/w500${data.results[id_pelicula].poster_path}">
+    <img class="fotodet" src="https://image.tmdb.org/t/p/w500${data.poster_path}">
     <p class="textod">
-    ${data.results[id_pelicula].overview}
-    <br><br>Fecha de estreno: ${data.results[id_pelicula].release_date}
-    <br>Calificacion: ${data.results[id_pelicula].vote_average}
+    ${data.overview}
+    <br><br>Fecha de estreno: ${data.release_date}
+    <br>Calificacion: ${data.vote_average}
     </p>
     </div>
     `

@@ -13,7 +13,7 @@ fetch(`https://api.themoviedb.org/3/movie/popular?api_key=${acaVaLaAPIKey}`)
         container1.innerHTML+=
         `
         <article class="imagene">
-            <a href= "./detail-movie.html">
+            <a href= "./detail-movie.html?id=${data.results[i].id}">
                 <img class="foto" src= "https://image.tmdb.org/t/p/w500${data.results[i].poster_path}" alt="">
                 <p>"${data.results[i].title}"
             </a><br><br>Año: ${data.results[i].release_date}</a>
@@ -49,7 +49,7 @@ fetch(`https://api.themoviedb.org/3/tv/popular?api_key=${acaVaLaAPIKey}`)
         container3.innerHTML+=
         `
         <article class="imagene">
-            <a href= "./detail-serie.html">
+            <a href= "./detail-serie.html?id=${data.results[i].id}">
                 <img class="foto" src= "https://image.tmdb.org/t/p/w500${data.results[i].poster_path}" alt="">
                 <p>"${data.results[i].name}"
             </a><br><br>Año: ${data.results[i].first_air_date}</a>
