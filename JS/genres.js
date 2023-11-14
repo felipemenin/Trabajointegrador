@@ -1,5 +1,5 @@
 let acaVaLaAPIKey = "709280f7a436019eb21b72bc1317fa78";
-let genrespelis = document.querySelector(".genrespelis")
+let genrespelis = document.querySelector(".genres")
 let genresseries = document.querySelector(".genresseries")
 
 fetch(`https://api.themoviedb.org/3/genre/movie/list?api_key=${acaVaLaAPIKey}`)

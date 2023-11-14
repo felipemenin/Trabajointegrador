@@ -1,22 +1,23 @@
 let queryDetalle = location.search;
 let queryStringDetalle = new URLSearchParams(queryDetalle)
-let id = queryStringDetalle.get("id")
+let id_pelicula = queryStringDetalle.get("id")
 let todo = document.querySelector(".detallep")
+let acaVaLaAPIKey = "709280f7a436019eb21b72bc1317fa78"
 
-fetch(`https://api.themoviedb.org/3/discover/movie?api_key=709280f7a436019eb21b72bc1317fa78`)
+fetch(`https://api.themoviedb.org/3/movie/${id_pelicula}?api_key=${acaVaLaAPIKey}`)
 .then(function(resp){
     return resp.json()
 })
 .then(function(data){
     console.log(data)
     todo.innerHTML = `
-    <h1 class="titulodet">${data.results[0].title}"</h1>
+    <h1 class="titulodet">${data.results[id_pelicula].title}"</h1>
     <div class="separador">
-    <img class="fotodet" src="https://image.tmdb.org/t/p/w500${data.results[0].poster_path}">
+    <img class="fotodet" src="https://image.tmdb.org/t/p/w500${data.results[id_pelicula].poster_path}">
     <p class="textod">
-    ${data.results[0].overview}
-    <br><br>Fecha de estreno: ${data.results[0].release_date}
-    <br>Calificacion: ${data.results[0].vote_average}
+    ${data.results[id_pelicula].overview}
+    <br><br>Fecha de estreno: ${data.results[id_pelicula].release_date}
+    <br>Calificacion: ${data.results[id_pelicula].vote_average}
     </p>
     </div>
     `

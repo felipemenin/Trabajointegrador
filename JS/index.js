@@ -1,19 +1,3 @@
-fetch(`https://api.themoviedb.org/3/search/movie?api_key=709280f7a436019eb21b72bc1317fa78`)
-.then(function(resp){
-    return resp.json()
-})
-.then(function(data){
-    console.log(data)
-})
-
-fetch(`https://api.themoviedb.org/3/search/tv?api_key=709280f7a436019eb21b72bc1317fa78`)
-.then(function(resp){
-    return resp.json()
-})
-.then(function(data){
-    console.log(data)
-})
-
 let container1= document.querySelector(".fotoss")
 let container2=document.querySelector(".fotosss")
 let container3= document.querySelector(".pepe")
