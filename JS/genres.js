@@ -1,6 +1,6 @@
 let acaVaLaAPIKey = "709280f7a436019eb21b72bc1317fa78";
 let genrespelis = document.querySelector(".genres")
-let genresseries = document.querySelector(".genresseries")
+let genresseries = document.querySelector(".genress")
 
 fetch(`https://api.themoviedb.org/3/genre/movie/list?api_key=${acaVaLaAPIKey}`)
   .then(function (resp) {
@@ -8,11 +8,11 @@ fetch(`https://api.themoviedb.org/3/genre/movie/list?api_key=${acaVaLaAPIKey}`)
   })
   .then(function (data) {
     console.log(data);
-    for(let i = 0; i<data.genres.length; i++){
+    for(let i = 0; i<10; i++){
         genrespelis.innerHTML+=`
-        <article>
+        <article class= "caca">
             <a href= "./detail-genres.html">
-                <p>"${data.genres[i].name}"</p>
+                <p class="generitos">"${data.genres[i].name}"</p>
             </a>
         </article>
         `
@@ -25,11 +25,11 @@ fetch(`https://api.themoviedb.org/3/genre/movie/list?api_key=${acaVaLaAPIKey}`)
   })
   .then(function (data) {
     console.log(data);
-    for(let i = 0; i<data.genres.length; i++){
+    for(let i = 0; i<10; i++){
         genresseries.innerHTML+=`
-        <article class="recomendaciones">
+        <article class="caca">
             <a href= "./detail-genres.html">
-                <p>"${data.genres[i].name}"
+                <p class="generitos">"${data.genres[i].name}"
         </article>
         `
     }
