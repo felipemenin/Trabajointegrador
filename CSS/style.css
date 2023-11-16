@@ -217,9 +217,20 @@ height: 480px;
 }
 .postbusqueda{
     
-    display: flex;
+display: flex;
+flex-direction: row;
+justify-content: center;
+margin-top: 5px;
+padding-top: 5px;
+flex-wrap: wrap;
+gap: 90px;
+background-color: black;
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     background-color: black;
-    
+    justify-content: space-between;
+    padding-bottom: 5px; */
 }
 h1{
     margin-top: 4px;
