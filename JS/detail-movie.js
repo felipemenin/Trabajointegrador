@@ -16,7 +16,9 @@ fetch(`https://api.themoviedb.org/3/movie/${id_pelicula}?api_key=${acaVaLaAPIKey
     <img class="fotodet" src="https://image.tmdb.org/t/p/w500${data.poster_path}">
     <p class="textod">
     ${data.overview}
-    <br><br>Fecha de estreno: ${data.release_date}
+    <br><br>Duracion: ${data.runtime}mins
+    <br>Genero: ${data.genres[0].name}
+    <br>Fecha de estreno: ${data.release_date}
     <br>Calificacion: ${data.vote_average}
     </p>
     </div>
@@ -29,11 +31,11 @@ fetch(`https://api.themoviedb.org/3/movie/${id_pelicula}?api_key=${acaVaLaAPIKey
 let cargar = document.querySelector(".recomendaciones")
 cargar.innerHTML += `
 <article>
-    <button onClick="cargarMas">Recomendaciones</button>
+    <button>Recomendaciones</button>
 </article>
 `
 cargar.addEventListener("click", function(){
-    fetch(`https://api.themoviedb.org/3/discover/movie?api_key=709280f7a436019eb21b72bc1317fa78`)
+    fetch(`https://api.themoviedb.org/3/movie/${id_pelicula}/recommendations?api_key=${acaVaLaAPIKey}`)
     .then(function(response){
         return response.json()
     })

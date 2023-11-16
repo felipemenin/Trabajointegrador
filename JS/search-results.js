@@ -13,6 +13,9 @@ fetch(`https://api.themoviedb.org/3/search/multi?query=${peliculaBuscada}&api_ke
         if(data.results[i].title==null){
             i++
         }
+        else if (data.results[i].poster_path==null){
+            i++
+        }
         else{
             post.innerHTML+=
             `

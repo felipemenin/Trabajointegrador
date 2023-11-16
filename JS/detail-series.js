@@ -25,3 +25,29 @@ fetch(`https://api.themoviedb.org/3/tv/${id_serie}?api_key=${acaVaLaAPIKey}`)
 .catch(function(error){
     console.log(error)
 })
+
+let cargar = document.querySelector(".recomendaciones")
+cargar.innerHTML += `
+<article>
+    <button>Recomendaciones</button>
+</article>
+`
+cargar.addEventListener("click", function(){
+    fetch(`https://api.themoviedb.org/3/tv/${id_serie}/recommendations?api_key=${acaVaLaAPIKey}`)
+    .then(function(response){
+        return response.json()
+    })
+    .then(function(data){
+        for(let i=0; i<5;i++){
+            cargar.innerHTML+=
+            `
+            <article class="imagene">
+                <a href= "./detail-movie.html">
+                    <img class="foto" src= "https://image.tmdb.org/t/p/w500${data.results[i].poster_path}" alt="">
+                    <p>"${data.results[i].title}"
+                </a><br><br>Año: ${data.results[i].release_date}</a>
+            </article>
+            `
+        }
+    })
+})
