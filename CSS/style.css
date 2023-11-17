@@ -9,6 +9,11 @@ footer{
     margin-top: 5px;
     padding: 10px;
 }
+.nombresito{
+    background-color: black;
+    margin-top: 3px;
+    padding: 10px;
+}
 .themovie{
     height: 15px;
 }
@@ -82,7 +87,9 @@ a{
 .fav{
     margin-left: 20px;
 }
-
+.recomm{
+    background-color: lightcoral;
+}
 .busca{
     height: 40px;
     width: 200px;

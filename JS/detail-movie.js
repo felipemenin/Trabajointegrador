@@ -31,7 +31,7 @@ fetch(`https://api.themoviedb.org/3/movie/${id_pelicula}?api_key=${acaVaLaAPIKey
 let cargar = document.querySelector(".recomendaciones")
 cargar.innerHTML += `
 <article>
-    <button>Recomendaciones</button>
+    <button class="recomm">RECOMENDACIONES</button>
 </article>
 `
 cargar.addEventListener("click", function(){
