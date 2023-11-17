@@ -34,7 +34,7 @@ fetch(`https://api.themoviedb.org/3/movie/top_rated?api_key=${acaVaLaAPIKey}`)
             <a href= "./detail-movie.html?id=${data.results[i].id}">
                 <img class="foto" src= "https://image.tmdb.org/t/p/w500${data.results[i].poster_path}" alt="">
                 <p>"${data.results[i].title}"
-            </a><br><br>Año: ${data.results[i].release_date}<br>Calificacion: ${data.results[i].vote_average}</a>
+            </a><br><br>Año: ${data.results[i].release_date}</a>
         </article>
         `
     }
