@@ -1,359 +1,359 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Lato', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
 }
-footer{
-    background-color: black;
-    margin-top: 5px;
-    padding: 10px;
+footer {
+  background-color: black;
+  margin-top: 5px;
+  padding: 10px;
 }
-.nombresito{
-    background-color: black;
-    margin-top: 3px;
-    padding: 10px;
+.nombresito {
+  background-color: black;
+  margin-top: 3px;
+  padding: 10px;
 }
-.themovie{
-    height: 15px;
+.themovie {
+  height: 15px;
 }
-.genres{
-    margin-top: 5px;
-    background-color: black;
-    margin-bottom: 5px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 10px;
+.genres {
+  margin-top: 5px;
+  background-color: black;
+  margin-bottom: 5px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10px;
 }
-.genress{
-    margin-top: 5px;
-    background-color: black;
-    margin-bottom: 5px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 10px;
-}
-
-body{
-    color: white;
-    background-color: rgb(34, 32, 32);
-    box-sizing: border-box;
-}
-.menu{
-    display: flex;
-    flex-direction: row;
-    font-family: 'Rozha One', serif;
-    margin-top: 3px;
-    background-color: black;
-}
-h1{
-   
-    font-size: 50px;
-}
-.caca{
-    background-color: rgb(227, 15, 15);
-    margin-top: 10px;
-    margin-right: 50px;
-    height: 50px;
-    width: 200px;
-}
-.generitos{
-    text-align: center;
-    margin-top: 10px;
-}
-.titulo{
-    background-color: black;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 400px;
-    padding-left: 15px;
-    width: 100%;  
-}
-.favoritos{
-    height: 25px;
-    margin-left: 20px;
-    
+.genress {
+  margin-top: 5px;
+  background-color: black;
+  margin-bottom: 5px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10px;
 }
 
-a{
-    text-decoration: none;
-    color: white;
+body {
+  color: white;
+  background-color: rgb(34, 32, 32);
+  box-sizing: border-box;
 }
-.fav{
-    margin-left: 20px;
+.menu {
+  display: flex;
+  flex-direction: row;
+  font-family: "Rozha One", serif;
+  margin-top: 3px;
+  background-color: black;
 }
-.recomm{
-    background-color: lightcoral;
+h1 {
+  font-size: 50px;
 }
-.busca{
-    height: 40px;
-    width: 200px;
-    margin-top: 50px;
-    margin-left: 10px
+.box {
+  background-color: rgb(227, 15, 15);
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-right: 40px;
+  height: 50px;
+  width: 200px;
 }
-
-.logo{ 
-height: 100px;
-padding-top: 5px;
-padding-bottom: 5px;
+.generitos {
+  text-align: center;
+  text-decoration: none;
+  margin-top: 10px;
 }
-p{
-font-size: 20px;
-
+.generotit {
+  padding-left: 10px;
 }
-.mejoresvaloradas{
-    margin-top: 3px;
-    background-color: black;
+.titulo {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 400px;
+  padding-left: 15px;
+  width: 100%;
 }
-
-h3{
-    padding-top: 30px;
-    padding-left:30px;
-}
-.fotoss{
-display: flex;
-flex-direction: row;
-justify-content: center;
-margin-left: 10px;
-margin-right: 10px;
-margin-top: 30px;
-padding-bottom: 30px;
-flex-wrap: wrap;
-gap: 90px;
-}
-.fotosss{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-left: 15px;
-    margin-right: 15px;
-    margin-top: 30px;
-    padding-bottom: 30px;
-    flex-wrap: wrap;
-    gap: 90px;
-    }
-.pepe{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-left: 15px;
-    margin-right: 15px;
-    margin-top: 30px;
-    padding-bottom: 30px;
-    flex-wrap: wrap;
-    gap: 90px;
- }
-.foto{
-    height: 300px;
-}
-.mejoresvaloradas1{
-    background-color: black;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: 3px;
-    padding: 10px;
-    flex-wrap: wrap;
-    gap: 90px;
-}
-.recomendaciones{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-top: 4px;
-    padding: 10px;
-    background-color: black;  
-}
-.imagene{
-    width: 200px;
-}
-.imagene:hover{
-    
-        transform: translateY(-10px);
-        box-shadow: 0 0 20px rgba(215, 212, 212, 0.57);
-       
-}
-.fotoss_generos { 
-    display: flex;
-    flex-direction: row;
-    margin-top: 30px;
-    padding-bottom: 30px;
-    margin-left :15px;
-    margin-right: 15px;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 150px;
+.favoritos {
+  height: 25px;
+  margin-left: 20px;
 }
 
-.detallep{
-    background-color: black;
-    margin-top: 3px;
-    padding-left: 15px;
-    font-family: 'Lato', sans-serif;
-    padding-bottom: 10px;
+a {
+  text-decoration: none;
+  color: white;
 }
-.trailerep{
-width: 860px; 
-height: 480px;
+.fav {
+  margin-left: 20px;
 }
-.separador{
-    display: flex;
-    flex-direction: row;
-    margin-left: 15px;
+.recomm {
+  background-color: lightcoral;
+}
+.busca {
+  height: 40px;
+  width: 200px;
+  margin-top: 50px;
+  margin-left: 10px;
+}
+
+.logo {
+  height: 100px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+p {
+  font-size: 20px;
+}
+.mejoresvaloradas {
+  margin-top: 3px;
+  background-color: black;
+}
+
+h3 {
+  padding-top: 30px;
+  padding-left: 30px;
+}
+.fotoss {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 30px;
+  padding-bottom: 30px;
+  flex-wrap: wrap;
+  gap: 90px;
+}
+.fotosss {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 30px;
+  padding-bottom: 30px;
+  flex-wrap: wrap;
+  gap: 90px;
+}
+.pepe {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 30px;
+  padding-bottom: 30px;
+  flex-wrap: wrap;
+  gap: 90px;
+}
+.foto {
+  height: 300px;
+}
+.mejoresvaloradas1 {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 3px;
+  padding: 10px;
+  flex-wrap: wrap;
+  gap: 90px;
+}
+.recomendaciones {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 4px;
+  padding: 10px;
+  background-color: black;
+}
+.imagene {
+  border-radius: 10px;
+  width: 200px;
+}
+.fee {
+  padding: 5px;
+}
+.imagene:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 20px rgba(215, 212, 212, 0.57);
+}
+.fotoss_generos {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  padding-bottom: 30px;
+  margin-left: 15px;
+  margin-right: 15px;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 150px;
+}
+
+.detallep {
+  background-color: black;
+  margin-top: 3px;
+  padding-left: 15px;
+  font-family: "Lato", sans-serif;
+  padding-bottom: 10px;
+}
+.trailerep {
+  width: 860px;
+  height: 480px;
+}
+.separador {
+  display: flex;
+  flex-direction: row;
+  margin-left: 15px;
 }
 .fotodet {
-    margin-left: 10px;
-    height: 480px;
+  height: 420px;
 }
-.textod{
-    font-family: 'Lato', sans-serif;
-    text-align: justify;
-    padding-right: 30px;
-    padding-left: 30px;
-    padding-top: 15px;
-    padding-bottom: 10px;
+.textod {
+  font-family: "Lato", sans-serif;
+  text-align: justify;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 15px;
+  padding-bottom: 10px;
 }
-.sectra{
-    background-color: black;
-    margin-top: 4px;
-    display: flex;
-    justify-content: center;
+.sectra {
+  background-color: black;
+  margin-top: 4px;
+  display: flex;
+  justify-content: center;
 }
-.detallitos{
-    margin-left: 15px;
+.detallitos {
+  margin-left: 15px;
 }
-.fotobb{
-    height: 480px;
-    padding-right: 10px;
+.fotobb {
+  height: 480px;
+  padding-right: 10px;
 }
-.detallbb{
-    background-color: black;
-    margin-top: 3px;
-    padding-bottom: 10px;
+.detallbb {
+  background-color: black;
+  margin-top: 3px;
+  padding-bottom: 10px;
 }
-.titbb{
-    padding-left: 10px;
-    margin-top: 3px;
+.titbb {
+  padding-left: 10px;
+  margin-top: 3px;
 }
-.postbusqueda{
-    
-display: flex;
-flex-direction: row;
-justify-content: center;
-margin-top: 5px;
-padding-top: 5px;
-flex-wrap: wrap;
-gap: 90px;
-background-color: black;
+.postbusqueda {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 5px;
+  padding-top: 5px;
+  flex-wrap: wrap;
+  gap: 90px;
+  background-color: black;
 }
-h1{
-    margin-top: 4px;
-    background-color: black;
+h1 {
+  margin-top: 4px;
+  background-color: black;
 }
-.fotobusqueda{
-    padding-top: 15px;
-    margin-left: 10px;
+.fotobusqueda {
+  padding-top: 15px;
+  margin-left: 10px;
 }
-.todo{
-    background-color: black;
+.todo {
+  background-color: black;
 }
-.medio1{
-    display: flex;
-    justify-content: center;
-    background-color: black;
-    margin-top: 4px;    
+.medio1 {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  margin-top: 4px;
 }
-.medio{
-    display: flex;
-    justify-content: center;
-    background-color: black;
-    margin-top: 20px;
-
+.medio {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  margin-top: 20px;
 }
 
-.testou{
-    margin-top: 60px;
-    font-size: 25px;
+.testou {
+  margin-top: 60px;
+  font-size: 25px;
 }
-.buscador{
-    display: flex;
-    flex-direction: row;
-    padding-right: 15px;
+.buscador {
+  display: flex;
+  flex-direction: row;
+  padding-right: 15px;
 }
-.botin{
-    font-family: 'Lato', sans-serif;
-    background-color: lightcoral;
-    border-color: black;
-    margin-top: 50px;
-    height: 40px;
+.botin {
+  font-family: "Lato", sans-serif;
+  border-radius: 5px;
+  background-color: lightcoral;
+  border-color: black;
+  margin-top: 50px;
+  height: 40px;
 }
 
-
-@media(max-width:1300px){
-.titulo{
+@media (max-width: 1300px) {
+  .titulo {
     flex-wrap: wrap;
     gap: 50px;
-}
+  }
 }
 
-    
-
-@media(max-width:700px){
-.separador{
+@media (max-width: 700px) {
+  .separador {
     justify-content: center;
     flex-direction: column;
+  }
 }
-}
-@media(max-width:820px){
-    .titulo{
-        flex-direction: column;
-        justify-content: center;
-        gap: 1px;
-        flex-wrap: wrap;
-    }
-    .logo{width: 100px;
-    }
-    .fotodet{
-        width: 100%;
-        height: auto;
-    }
-    .trailerep{
-        width: 100%;
-    }
-    .busca{
-        margin-top: 5px;
-    }
-    .fotobb{
-        width: 100%;
-        height: auto;  
-    }
-    .trailerep{
-        width:400px ;
-    }
-    .separador{
+@media (max-width: 820px) {
+  .titulo {
+    flex-direction: column;
+    justify-content: center;
+    gap: 1px;
+    flex-wrap: wrap;
+  }
+  .logo {
+    width: 100px;
+  }
+  .fotodet {
+    width: 100%;
+    height: auto;
+  }
+  .trailerep {
+    width: 100%;
+  }
+  .busca {
+    margin-top: 5px;
+  }
+  .fotobb {
+    width: 100%;
+    height: auto;
+  }
+  .trailerep {
+    width: 400px;
+  }
+  .separador {
     flex-wrap: wrap;
     justify-content: center;
+  }
 }
-}
-@media(max-width:431px) {
-.trailerep{
+@media (max-width: 431px) {
+  .trailerep {
     width: 100%;
-}   
-.dramageneros{
+  }
+  .dramageneros {
     width: 300px;
-} 
-.acciongeneros{
+  }
+  .acciongeneros {
     width: 300px;
-}
-.comediageneros{
-width: 300px;
-}
-.menu{
+  }
+  .comediageneros {
+    width: 300px;
+  }
+  .menu {
     width: 100%;
-}
+  }
 }
