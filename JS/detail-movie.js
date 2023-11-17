@@ -44,7 +44,7 @@ cargar.addEventListener("click", function(){
             cargar.innerHTML+=
             `
             <article class="imagene">
-                <a href= "./detail-movie.html">
+                <a href= "./detail-movie.html?id=${data.results[i].id}">
                     <img class="foto" src= "https://image.tmdb.org/t/p/w500${data.results[i].poster_path}" alt="">
                     <p>"${data.results[i].title}"
                 </a><br><br>Año: ${data.results[i].release_date}</a>
