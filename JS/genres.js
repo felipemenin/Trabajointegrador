@@ -11,7 +11,7 @@ fetch(`https://api.themoviedb.org/3/genre/movie/list?api_key=${acaVaLaAPIKey}`)
     for(let i = 0; i<10; i++){
         genrespelis.innerHTML+=`
         <article class= "caca">
-            <a href= "./detail-genres.html">
+            <a href= "./detail-genres.html?id=${data.genres[i].id}">
                 <p class="generitos">"${data.genres[i].name}"</p>
             </a>
         </article>
@@ -28,7 +28,7 @@ fetch(`https://api.themoviedb.org/3/genre/movie/list?api_key=${acaVaLaAPIKey}`)
     for(let i = 0; i<10; i++){
         genresseries.innerHTML+=`
         <article class="caca">
-            <a href= "./detail-genres.html">
+            <a href= "./detail-genres.html?id=${data.genres[i].id}">
                 <p class="generitos">"${data.genres[i].name}"
         </article>
         `
